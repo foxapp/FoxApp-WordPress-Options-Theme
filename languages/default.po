@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Admin Notification\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-24 09:34+0100\n"
+"PO-Revision-Date: 2012-01-24 09:34+0100\n"
+"Last-Translator: remi\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../easy-admin-notification.php:57
+#: ../easy-admin-notification.php:130
+msgid "Easy Admin Notification Settings"
+msgstr "Easy Admin Notification Settings"
+
+#: ../easy-admin-notification.php:58
+msgid "Admin Notification"
+msgstr "Admin Notification"
+
+#: ../easy-admin-notification.php:94
+#, fuzzy
+msgid "Notification management"
+msgstr "Notification page(s)"
+
+#: ../easy-admin-notification.php:136
+msgid "Options saved"
+msgstr "Options saved"
+
+#: ../easy-admin-notification.php:149
+msgid "Save Options"
+msgstr "Save Options"
+
+#: ../easy-admin-notification.php:195
+#, php-format
+msgid "<a href=\"%1$s\">Hide</a>"
+msgstr "<a href=\"%1$s\">Hide</a>"
+
+#: ../easy-admin-notification.php:278
+msgid "Ooop! You activated a notification but you haven't defined any message!"
+msgstr ""
+
+#: ../includes/options.php:15
+msgid "General"
+msgstr ""
+
+#: ../includes/options.php:19
+msgid "Advanced"
+msgstr ""
+
+#: ../includes/options.php:37
+msgid "Please configure the settings"
+msgstr ""
+
+#: ../includes/options.php:43
+msgid "Enable notification ?"
+msgstr "Enable notification ?"
+
+#: ../includes/options.php:44
+msgid "Check this box to enable the notification message."
+msgstr "Check this box to enable the notification message."
+
+#: ../includes/options.php:50
+msgid "Enter the message to display"
+msgstr "Enter the message to display"
+
+#: ../includes/options.php:51
+msgid "Enter the text you want to display in the notification. HTML code accepted."
+msgstr "Enter the text you want to display in the notification. HTML code accepted."
+
+#: ../includes/options.php:51
+msgid "To create links use simple quotes."
+msgstr ""
+
+#: ../includes/options.php:57
+msgid "Error message ?"
+msgstr "Error message ?"
+
+#: ../includes/options.php:58
+msgid "Check this box to display an error message. If uncheck, the message will be display as an information."
+msgstr "Check this box to display an error message. If uncheck, the message will be display as an information."
+
+#: ../includes/options.php:64
+msgid "Display \"hide button\" ?"
+msgstr "Display \"hide button\" ?"
+
+#: ../includes/options.php:65
+msgid "Check this box to display a \"hide button\" inside the notification box.<br />Each user will have the choice to hide or not the notification"
+msgstr "Check this box to display a \"hide button\" inside the notification box.<br />Each user will have the choice to hide or not the notification"
+
+#: ../includes/options.php:71
+msgid "Notification page(s)"
+msgstr "Notification page(s)"
+
+#: ../includes/options.php:72
+msgid "Choose where you want to display the notification."
+msgstr "Choose where you want to display the notification."
+
+#: ../includes/options.php:77
+msgid "All pages"
+msgstr "All pages"
+
+#: ../includes/options.php:81
+msgid "Dashboard Only"
+msgstr "Dashboard Only"
+
+#: ../includes/options.php:99
+msgid "Only display to Admins ?"
+msgstr "Only display to Admins ?"
+
+#: ../includes/options.php:100
+msgid "Check this box to display notice only to Admins"
+msgstr "Check this box to display notice only to Admins"
+
+#: ../includes/functions/ean_functions.php:143
+#: ../includes/functions/ean_functions.php:162
+msgid "Select"
+msgstr ""
+
+#: ../includes/functions/ean_functions.php:153
+msgid "Manage"
+msgstr ""
+
+#: ../includes/functions/ean_functions.php:181
+msgid "Choose Image"
+msgstr ""
+
+#: ../includes/functions/ean_functions.php:182
+msgid "Remove Image"
+msgstr ""
+
+#: ../includes/functions/ean_functions.php:212
+msgid "Add"
+msgstr ""
+
