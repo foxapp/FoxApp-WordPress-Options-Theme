@@ -260,7 +260,7 @@ label > #creativeto_settings[portrait] {
 	padding: 0 10px;
 }
 .cb-disable.l span {
-	background-position: left -30px;
+	background-position: left 0px;
 	padding: 0 10px;
 }
 .cb-disable.l {
@@ -292,7 +292,7 @@ label > #creativeto_settings[portrait] {
 	color: #fff;
 }
 .cb-enable.selected.r span {
-	background-position: right -60px;
+	background-position: right -20px;
 	color: #fff;
 }
 .switch label {
