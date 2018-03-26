@@ -33,7 +33,7 @@ You can easily create many field types such as:
 * Slider
 * Color Picker
 
-[Developer Website](http://remicorson.com) - [Support Forum](http://remicorson.com/support/plugin/easy-theme-options/)
+[Developer Website](http://foxapp.net) - [Support Forum](http://foxapp.net/support/plugins/foxapp-theme-options/)
 
 == Installation ==
 
