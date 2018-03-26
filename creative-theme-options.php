@@ -10,7 +10,6 @@ Contributors: Ion Enache
 ----------------------------------------
 * Plugin Globals
 ----------------------------------------- */
-ini_set("disaplay_errors",1);
 global $creativeto_base_dir, $user_ID, $creativeto_prefix, $creativeto_options, $creativeto_settings;
 $creativeto_base_dir = dirname(__FILE__);
 $creativeto_prefix = "creativeto_";
@@ -29,10 +28,10 @@ load_plugin_textdomain( CREATIVETO_DOMAIN , false, dirname( plugin_basename( __F
 	include_once($creativeto_base_dir . '/includes/styles.php');
 	include_once($creativeto_base_dir . '/includes/creative_options.php');
 	include_once($creativeto_base_dir . '/includes/functions/creativeto_functions.php');
-		//include($creativeto_base_dir . '/includes/demo_data.php');
+	//include($creativeto_base_dir . '/includes/demo_data.php');
 	include_once($creativeto_base_dir . '/includes/scripts.php');
 	include_once($creativeto_base_dir . '/includes/help.php');
-		//include($creativeto_base_dir . '/includes/plugins.php');
+	//include($creativeto_base_dir . '/includes/plugins.php');
 //}
 include($creativeto_base_dir . '/includes/shortcodes.php');
 
