@@ -1,6 +1,6 @@
 <?php
 /***************************************************************************
-						Creative Options Page
+						FoxApp Options Page
 ***************************************************************************/
 $prefix = 'creativeto_';
 $creativeto_version = "1.0";
@@ -17,18 +17,18 @@ $creativeto_custom_meta_fields = $creativeto_custom_tabs = array();
 function exclude_files($dir, &$dir_array, $find_file)
 {
     // Create array of current directory
-    $files = scandir($dir);    
+    $files = scandir($dir);
     if(is_array($files))
     {
         foreach($files as $val)
         {
             // Skip home and previous listings
-            if($val == '.' || $val == '..') continue;            
+            if($val == '.' || $val == '..') continue;
             // If directory then dive deeper, else add file to directory key
             if(is_dir($dir.'/'.$val))
             {
                 // Add value to current array, dir or file
-                $dir_array[$dir][] = $val;                
+                $dir_array[$dir][] = $val;
                 find_files($dir.'/'.$val, $dir_array, $find_file);
             }
             else
@@ -47,18 +47,18 @@ function exclude_files($dir, &$dir_array, $find_file)
 function find_files($dir, &$dir_array, $find_file)
 {
     // Create array of current directory
-    $files = scandir($dir);    
+    $files = scandir($dir);
     if(is_array($files))
     {
         foreach($files as $val)
         {
             // Skip home and previous listings
-            if($val == '.' || $val == '..') continue;            
+            if($val == '.' || $val == '..') continue;
             // If directory then dive deeper, else add file to directory key
             if(is_dir($dir.'/'.$val))
             {
                 // Add value to current array, dir or file
-                $dir_array[$dir][] = $val;                
+                $dir_array[$dir][] = $val;
                 find_files($dir.'/'.$val, $dir_array, $find_file);
             }
             else
@@ -79,13 +79,13 @@ find_files($creativeto_base_dir."/includes/custom_plugins/", $folder_list, array
 $folder_list = array();
 find_files($creativeto_base_dir."/includes/custom_plugins/", $folder_list, array('functions.php'));
 $sortPluginsArray = array();
-foreach($creativeto_custom_tabs as $menuPluginItem){ 
-    foreach($menuPluginItem as $key=>$menuPluginItemValue){ 
-        if(!isset($sortPluginsArray[$key])){ 
-            $sortPluginsArray[$key] = array(); 
-        } 
-        $sortPluginsArray[$key][] = $menuPluginItemValue; 
-    } 
+foreach($creativeto_custom_tabs as $menuPluginItem){
+    foreach($menuPluginItem as $key=>$menuPluginItemValue){
+        if(!isset($sortPluginsArray[$key])){
+            $sortPluginsArray[$key] = array();
+        }
+        $sortPluginsArray[$key][] = $menuPluginItemValue;
+    }
 }
 $orderPluginsByColumn = "menu_position";
 array_multisort($sortPluginsArray[$orderPluginsByColumn],SORT_ASC,$creativeto_custom_tabs);
